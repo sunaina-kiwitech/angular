@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'learn-angular-by-example';
+  title = 'Student-Details';
 }
