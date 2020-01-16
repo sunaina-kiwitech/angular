@@ -18,14 +18,12 @@ export class AddStudentComponent implements OnInit {
   buildFrom() {
     console.log('building form ----');
     this.newUserForm = this.formBuilder.group({
-      firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
+      name: ['', Validators.required],
+      info: ['', Validators.required],
       email: ['', Validators.required],
       phoneNumber: ['', Validators.required],
       fatherName: ['', Validators.required],
       motherName: ['', Validators.required],
-
-      // dob: [''],
     });
   }
 
