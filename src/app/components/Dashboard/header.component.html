@@ -1,12 +1,10 @@
 <style>
-
   .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 16px;
   }
-
   .card {
     border-radius: 4px;
     border: 1px solid #eee;
@@ -45,7 +43,6 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
-
 <h2 class="card-container">Student Details</h2>
 <div class="card-container" routerLink='/add-student'>
   <div class="card card-small" tabindex="0">
@@ -55,7 +52,7 @@ tr:nth-child(even) {
     <span>Add</span>
   </div>
 </div>
-<div>
+<div *ngIf="items">
 <table>
   <tr>
     <th>Student Name</th>
@@ -65,13 +62,13 @@ tr:nth-child(even) {
     <th>Mother Name</th>
     <th>Info</th>
   </tr>
-  <tr>
-    <td>{{item.Name}}</td>
-    <td>{{item.email}}</td>
-    <td>{{item.FatherName}}</td>
-    <td>{{item.MotherName}}</td>
-    <td>{{item.PhoneNumber}}</td>
-    <td>{{item.Info}}</td>
+  <tr *ngFor="let items of items">
+    <td>{{items.Name}}</td>
+    <td>{{items.email}}</td>
+    <td>{{items.FatherName}}</td>
+    <td>{{items.MotherName}}</td>
+    <td>{{items.PhoneNumber}}</td>
+    <td>{{items.Info}}</td>
   </tr>
 </table>
 </div>

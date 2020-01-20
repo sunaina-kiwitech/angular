@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "Name": "Senpai",
+      "email": "Senpai@gmail.com",
+      "FatherName": "Soma Osu",
+      "MotherName": "Ryuto Ippongo",
+      "PhoneNumber": "9876543212",
+      "Info": "An average student. \n \n Average grades, average looks, average life."
+    },
+    {
+      "Name": "Saki Miyu",
+      "email": "saki.miyu@gmail.com ",
+      "FatherName": "Pippi Miyu",
+      "MotherName": "Sakyu Miyu",
+      "PhoneNumber": "9876568256",
+      "Info": "confidant."
+    },
+    {
+      "Name": "Midori Gurin",
+      "email": "midori.gurin@gmail.com",
+      "FatherName": "Inkyu Gurin",
+      "MotherName": "Kuu Gurin",
+      "PhoneNumber": "9876543213",
+      "Info": "Known for irritating her classmates and teachers by constantly asking foolish questions."
+    },
+    {
+      "Name": "Sakyu Basu",
+      "email": "sakyu.Basu@gmail.com",
+      "FatherName": "Inkyu Basu",
+      "MotherName": "Oka Basu",
+      "PhoneNumber": "9876543218",
+      "Info": "Wears contact lenses. \n \n Enjoys spending time with her younger sister."
+    },
+    {
+      "Name": "Juku Ren",
+      "email": "juku.ren@gmail.com",
+      "FatherName": "Shima Ren",
+      "MotherName": "Mina Ren",
+      "PhoneNumber": "-",
+      "Info": "Apprentice-level disciple of Budo Masuta."
+    },
+    {
+      "Name": "Mina Rai",
+      "email": "mina.rai@gmail.com",
+      "FatherName": "Abcd",
+      "MotherName": "Efgh",
+      "PhoneNumber": "9837743632",
+      "Info": "President of the Martial Arts Club."
+    },
+    {
+      "Name": "Oka Ruto",
+      "email": "oka.ruto@gmail.com",
+      "FatherName": "Supana Ruto ",
+      "MotherName": "Churu Ruto",
+      "PhoneNumber": "8987753262",
+      "Info": "Founder and President of the Occult Club."
+    }
+  ]
+}

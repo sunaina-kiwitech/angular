@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
-import {data} from './../../../app/studentData.json';
+import {Component, OnInit} from '@angular/core';
+import * as data from '../../../assets/data.json';
+
 @Component({
   selector: 'app-root',
   templateUrl: './header.component.html',
@@ -7,16 +8,9 @@ import {data} from './../../../app/studentData.json';
 })
 export class HeaderComponent {
   title = 'dashboard';
-}
-
-export class studentComponent {
-  title = 'json-file-read-angular';
-  public studentList: {
-    name: string;
-    email: string;
-    FatherName: string;
-    MotherName: string;
-    PhoneNumber: string;
-    Info: string;
-  }[] = data;
+  items: any = (data as any).default.data;
+  constructor() {}
+  ngOnInit() {
+    console.log(this.items);
+  }
 }
